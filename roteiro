@@ -1,0 +1,63 @@
+baixar projeto do aluno
+acessar docs do google
+criar um projeto novo no google
+gerar credenciais
+pegar a chave
+
+Ativar no painel do map
+maps directions
+javascript api
+static maps api
+
+NO EXEMPLO 1
+so precisa da URL + a chave
+- criar classe Imovel
+- receber e popular propriedades no constructor
+- criar metodo para pegar o endereço getEndereco
+- criar metodo para pegar mapa getMapa (endereco formatado do jeito do google entende)
+- explicar url
+- explicar o for do HTML
+
+XEMPLO 2
+- importar a api url com a key no index.html
+- declarar var do google
+- criar o mapa: any
+- no ionViewDidLoad criar as constantes
+- variavel position e colocar a posição onde o mapa vai iniciar
+- coordenadas do centro de itu
+- definir maps options, zoom mostra a rua, posicao, controles do google street view
+- criar novo mapa this.map pegar o elemento mapa que esta no html e passar as opções
+- definir marcador
+- html com div id mapa que foi chamado antes
+- no css definir o tamanho do mapa como 100%
+- mostrar opçoes de zoom no doc do maps
+- mudar pra true defult ui do mapa pra nao exibir coisas controles das laterais
+- mostrar opçoes do marcados como titulo, animacao, drop e bounce e Icone mudar img assets pessoas
+
+EXEMPLO 3
+VAMOS USAR GEOLOCATION DO CORDOVA
+- ir no doc do CORDOVA e copicar o comando para instalar o plugion junto com o comentario
+- para usar o plugin tem que instalar a plataforma "ionic cordova platform add android"
+- instalar o pacote do ionic native de GEOLOCATION
+- apos instalar, ir no app.module.ts e dar import no GEOLOCATION
+- adicionar o GEOLOCATION nos providers do app.module.ts
+- importar tbm o geo na pagina exemṕlo3.ts
+- receber no construtor
+- declarar var Google
+- criar mapa any
+- mostrar como pegar loc atual pela doc do ionic com o getCurrentPosition
+- criar const position passando as coordenadas lat e long
+- criar map options com zoom e centralizando na posicao criada antes
+- crirar o mapa com this.map passando as options
+- definir const com um marcador simples
+- logar erro
+- mostrar html e o css
+- dizer que por acaso o plugin do cordova para o maps tbm funciona no navegador mas a maioria nao, apenas emulardor, celular ou devapp do ionic
+- MOSTRAR A DEPURAÇÃO: aba sources,
+- navegar até o exemplo3 e abrir o codigo fonte no console
+- colocar break point no this.geolocation getCurrentPosition
+- colocar tbm no then e no catch e ir apertanto f8 para ir rodando
+- e mostrar as coordenadas que vao aparecendo
+
+EXEMPLO 4
+-falar sobre as cotas de uso do maps, gratis ate certo ponto
