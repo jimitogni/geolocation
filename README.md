@@ -1,23 +1,23 @@
 # IonicGoogleMapsBasicExample
-A basic example of integration between Ionic and Google Maps
+4 exemplos basicos utilizando Ionic e Google Maps
 
-## How to run this example
+## Para rodar este projeto execute na linha de comando, dentro da pasta do projeto
 
-### With the Ionic CLI:
+### no Ionic CLI:
 
-Run the command below to install the dependencies
+O comando abaixo ira procurar dentro do arquivo packages.json as dependencias necessarias para rodar o projeto e farah a instalacao dos pacotes que forem necessarios
 
 ```bash
 $ npm install
 ```
 
-Then, to run it in a Browser
+Apos o npm terminar de instalar todas as dependencias, roda o comando para executar o projeto no navegador
 
 ```bash
 $ ionic serve
 ```
 
-Or to run it in a Device
+Ou entao para executar em um emulardor instalado no seu computador ou direto no seu celular
 
 Android
 
